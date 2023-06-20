@@ -20,7 +20,7 @@ public class AmazonTestXpath {
     @Test
     public void test1() {
     	
-    	driver.get("file:///C:/Users/ajuvi/OneDrive/Desktop/Java/alertpage.html");
+    	driver.get("path");
     	
         driver.findElement(By.xpath("/html/body/input[1]")).click();
         Alert a = driver.switchTo().alert();
